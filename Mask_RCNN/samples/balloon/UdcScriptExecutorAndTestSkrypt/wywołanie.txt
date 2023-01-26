@@ -1,0 +1,12 @@
+Skrypt wymaga python 2.7
+Paczki reguests, (pip install requests)
+
+W paczce jest zmodyfikowany UdcScriptExecutor.py
+Przyk³adowa procedura, która zwraca tekst „dane wyjœciowe 1”
+Folder udchttp, który musi byæ przy UdcScriptExecutor.py aby dzia³a³ poprawnie. UdcScriptExecutor.py i udchttp musza byæ w 1 folderze.
+
+Przyk³adowe wywo³anie 
+
+python UdcScriptExecutor.py udcdemo "demo\lkarkoszka" "Password1" sampleProcedureScriptExecutor.py [] True
+
+python UdcScriptExecutor.py  adresSerwera nazwaU¿ytkownika  has³o procedura [parametry] logowanieLdap
